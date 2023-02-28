@@ -1,11 +1,16 @@
 package hexlet.code;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class MainTest {
-    @Test
-    public void test1(){
-        System.out.println("Hello world!");
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public final class MainTest {
+    @Test
+    public void mapSchemaTest1() {
+        App.main();
+        System.out.println("Hello world!");
     }
 }
