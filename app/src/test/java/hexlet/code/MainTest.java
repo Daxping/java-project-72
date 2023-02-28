@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public final class MainTest {
     @Test
     public void mapSchemaTest1() {
-        App.main();
+        App.getApp();
         System.out.println("Hello world!");
     }
 }
